@@ -43,7 +43,7 @@ namespace Biocrowds.Emotion
         {
             base.Update();
 
-            /*_emotionProfile.Extraversion = Mathf.Clamp01(_emotionProfile.Extraversion + Random.Range(-0.1f,0.1f));*/
+            //_emotionProfile.Extraversion = Mathf.Clamp01(_emotionProfile.Extraversion + Random.Range(-0.1f,0.1f));
 
 
             _confortFactor = _auxins.Count / maxAuxins;
